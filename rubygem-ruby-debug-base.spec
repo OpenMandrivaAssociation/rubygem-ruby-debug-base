@@ -2,16 +2,18 @@
 
 Name:       rubygem-%{oname}
 Version:    0.10.3
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    Fast Ruby debugger - core component
 Group:      Development/Ruby
 License:    MIT
 URL:        http://rubyforge.org/projects/ruby-debug/
 Source0:    http://rubygems.org/downloads/%{oname}-%{version}.gem
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
+Requires:   ruby(abi) = 1.8
 Requires:   rubygems
 Requires:   rubygem(linecache) >= 0.3
 BuildRequires: rubygems
+BuildRequires: ruby-devel
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
