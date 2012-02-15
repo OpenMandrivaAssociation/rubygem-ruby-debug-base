@@ -2,7 +2,7 @@
 
 Name:       rubygem-%{oname}
 Version:    0.10.3
-Release:    %mkrel 2
+Release:	3
 Summary:    Fast Ruby debugger - core component
 Group:      Development/Ruby
 License:    MIT
