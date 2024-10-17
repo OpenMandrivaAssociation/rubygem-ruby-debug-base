@@ -8,7 +8,7 @@ Version:	0.10.3
 Release:	3
 Group:		Development/Ruby
 License:	GPLv2+ or Ruby
-URL:		http://rubyforge.org/projects/ruby-debug/
+URL:		https://rubyforge.org/projects/ruby-debug/
 Source0:	%{rbname}-%{version}.gem
 BuildRequires:	rubygems 
 BuildRequires:	ruby-devel
